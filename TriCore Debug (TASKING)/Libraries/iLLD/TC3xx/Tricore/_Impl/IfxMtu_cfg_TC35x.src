@@ -1,0 +1,46 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc1600a --dep-file=Libraries/iLLD/TC3xx/Tricore/_Impl/IfxMtu_cfg_TC35x.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc37x -D__CPU_TC37X__ --core=tc1.6.2 --fp-model=+float -D__CPU__=tc37x -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Configurations -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries\\\\Infra -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries\\\\Infra\\\\Sfr\\\\TC37x -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries\\\\Infra\\\\Ssw -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries\\\\Infra\\\\Ssw\\\\TC3xx -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries\\\\Infra\\\\Ssw\\\\TC3xx\\\\Tricore -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries\\\\Service -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries\\\\iLLD\\\\TC3xx -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\Asclin -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\Asclin\\\\Asc -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\Asclin\\\\Std -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\Can -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\Can\\\\Can -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\Can\\\\Std -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\Cpu\\\\Irq -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\Pms -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\Pms\\\\Std -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\Port -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\Scu -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\Src -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\Stm -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\_Lib -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\_Lib\\\\DataHandling -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\_PinMap -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\Libraries\\\\iLLD\\\\TC3xx\\\\Tricore\\\\_PinMap\\\\TC37x -IC:\\\\Users\\\\asdds\\\\AURIX-v1.10.28-workspace\\\\HA_Project3_MotorECU\\\\McmcanFd -g2 -w544 -w557 -w508 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2012 -o Libraries/iLLD/TC3xx/Tricore/_Impl/IfxMtu_cfg_TC35x.src ../Libraries/iLLD/TC3xx/Tricore/_Impl/IfxMtu_cfg_TC35x.c"
+	.compiler_name		"ctc"
+	;source	'../Libraries/iLLD/TC3xx/Tricore/_Impl/IfxMtu_cfg_TC35x.c'
+
+	
+$TC162
+	
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L3:
+	.word	260
+	.half	3
+	.word	.L4
+	.byte	4
+.L2:
+	.byte	1
+	.byte	'../Libraries/iLLD/TC3xx/Tricore/_Impl/IfxMtu_cfg_TC35x.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\asdds\\AURIX-v1.10.28-workspace\\HA_Project3_MotorECU\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L5
+	.byte	2,1,3
+	.word	238
+	.byte	4
+	.byte	'__codeptr',0,1,1,1
+	.word	240
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L4:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,21,0,54,15,0,0,3,15,0,73,19,0,0,4,22,0,3,8,58,15,59,15
+	.byte	57,15,73,19,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L5:
+	.word	.L7-.L6
+.L6:
+	.half	3
+	.word	.L9-.L8
+.L8:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Libraries/iLLD/TC3xx/Tricore/_Impl/IfxMtu_cfg_TC35x.c',0,0,0,0,0
+.L9:
+.L7:
+	; Module end
