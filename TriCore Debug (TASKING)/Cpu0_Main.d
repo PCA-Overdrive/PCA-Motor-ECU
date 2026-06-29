@@ -124,6 +124,8 @@ Cpu0_Main.o :	"C:\\Users\\asdds\\AURIX-v1.10.28-workspace\\HA_Project3_MotorECU\
 "C:\\Users\\asdds\\AURIX-v1.10.28-workspace\\HA_Project3_MotorECU\\Libraries\\iLLD\\TC3xx\\Tricore\\Scu\\Std\IfxScuWdt.h" :
 Cpu0_Main.o :	"C:\\Users\\asdds\\AURIX-v1.10.28-workspace\\HA_Project3_MotorECU\\Libraries\\iLLD\\TC3xx\\Tricore\\Port\\Std\IfxPort.h"
 "C:\\Users\\asdds\\AURIX-v1.10.28-workspace\\HA_Project3_MotorECU\\Libraries\\iLLD\\TC3xx\\Tricore\\Port\\Std\IfxPort.h" :
+Cpu0_Main.o :	"C:\\Users\\asdds\\AURIX-v1.10.28-workspace\\HA_Project3_MotorECU\\Libraries\\iLLD\\TC3xx\\Tricore\\Stm\\Std\IfxStm.h"
+"C:\\Users\\asdds\\AURIX-v1.10.28-workspace\\HA_Project3_MotorECU\\Libraries\\iLLD\\TC3xx\\Tricore\\Stm\\Std\IfxStm.h" :
 Cpu0_Main.o :	"C:\\Users\\asdds\\AURIX-v1.10.28-workspace\\HA_Project3_MotorECU\\Configurations\Ifx_Cfg_Ssw.h"
 "C:\\Users\\asdds\\AURIX-v1.10.28-workspace\\HA_Project3_MotorECU\\Configurations\Ifx_Cfg_Ssw.h" :
 Cpu0_Main.o :	"C:\\Users\\asdds\\AURIX-v1.10.28-workspace\\HA_Project3_MotorECU\\Libraries\\Infra\\Ssw\\TC3xx\\Tricore\Ifx_Ssw.h"
